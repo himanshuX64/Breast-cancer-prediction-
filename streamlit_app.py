@@ -29,8 +29,8 @@ with st.expander('Data'):
   df
 
 with st.expander("Depandent Data "):
-  X
+  X_train
 
 with st.expander("Target Data"):
-  y
+  y_train
 
