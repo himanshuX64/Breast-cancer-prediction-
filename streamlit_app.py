@@ -23,5 +23,4 @@ y=df['diagnosis']
 
 with st.expander('Data'):
   X
-with st.exapnder("Data Features X And Y"):
-  X=df.iloc
+
