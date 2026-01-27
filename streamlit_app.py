@@ -17,6 +17,11 @@ from sklearn.metrics import roc_curve, auc, roc_auc_score,f1_score,confusion_mat
 
 st.title('Breast Cancer Prediction App')
 #loading dataset
+df=pd.read_csv("https://raw.githubusercontent.com/himanshuX64/CampusX/refs/heads/main/dataset/breast-cancer.csv")
+X=df.drop('diagnosis',axis=1)
+y=df['diagnosis']
+
 with st.expander('Data'):
-  df=pd.read_csv("https://raw.githubusercontent.com/himanshuX64/CampusX/refs/heads/main/dataset/breast-cancer.csv")
-  df
+  X
+with st.exapnder("Data Features X And Y"):
+  X=df.iloc
