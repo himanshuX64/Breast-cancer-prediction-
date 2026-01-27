@@ -19,5 +19,3 @@ st.title('Breast Cancer Prediction App')
 #loading dataset
 df=pd.read_csv("https://raw.githubusercontent.com/himanshuX64/CampusX/refs/heads/main/dataset/breast-cancer.csv")
 df
-
-st.write('Hello world!')
