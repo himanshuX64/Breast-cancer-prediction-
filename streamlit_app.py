@@ -28,9 +28,9 @@ X_test=encoder.transform(X_test)
 with st.expander('Data'):
   df
 
-with st.expander("Depandent Data ")
+with st.expander("Depandent Data "):
   X
 
-with st.expander("Target Data")
+with st.expander("Target Data"):
   y
 
