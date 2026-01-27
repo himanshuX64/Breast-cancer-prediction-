@@ -4,9 +4,7 @@ import pandas as pd
 import numpy as np
 from sklearn.datasets import load_breast_cancer
 # visualization libraries
-import matplotlib.pyplot as plt
-import seaborn as sns
-import streamlit as st
+
 from sklearn.model_selection import train_test_split
 
 # data modeling libraries
