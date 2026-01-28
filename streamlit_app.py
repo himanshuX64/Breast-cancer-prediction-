@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 from sklearn.datasets import load_breast_cancer
 # visualization libraries
+import matplotlib.pyplot as plt
 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
@@ -27,6 +28,10 @@ encoder=LabelEncoder()
 
 with st.expander('Data'):
   df
+
+with st.expander("Data Visualisation"):
+  plt.scatter(df['radius_mean'],df['texture_mean'],color=df['diagnosis'])
+  plt.show()
 
 # with st.expander("Depandent Data "):
 #   X_train
