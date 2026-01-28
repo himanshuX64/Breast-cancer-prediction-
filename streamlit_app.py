@@ -27,7 +27,7 @@ encoder=LabelEncoder()
 # X_test_en=encoder.transform(X_test)
 
 with st.expander('Data'):
-  df
+  
 
 with st.expander("Data Visualisation"):
   plt.scatter(df['radius_mean'],df['texture_mean'],color=df['diagnosis'])
